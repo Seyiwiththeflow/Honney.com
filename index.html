@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style type="text/css">
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-repeat:;
+    background-color:black;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+background-color:;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+form button {
+    background-color: #373131;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+p {
+font-family:serif;
+font-size:20px;
+color:#fff;
+}
+img{
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: -1s;
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px; }
+  50%  { left:200px; top:px;}
+  75%  { left:0px; top:px;}
+  100% { left:0px; top:0px;}
+}
+
+
+
+h2{
+color:white;
+}
+
+h3{
+color:#fff;
+}
+ div h2{
+color:white;
+}
+
+
+
+</style>
+<body background="logo 2.png">
+    <header background="logo 2.png" >
+        <div class="container">
+        <img src ="logo 2.png" width="250px" height="190px">
+            <h1>HONNEY Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+          <b>  <p>I am a passionate 3d graphic designer and modelist and also a logo maker with a keen eye for detail and creativity. My goal is to create visually stunning designs that leave a lasting impression.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Project</h2>
+          <p>  <h2>MY 3D MODELS</h2>
+            <div class="portfolio-item">
+                <img src="donut.jpg" alt="Project 1">
+                <h3>My project</h3>
+                <b><p>This is a 3d model design donut and some point of lighting</p></b>
+            </div>
+            <div class="portfolio-item">
+                <img src="house 1.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A stunning house with bill board on it as refrence of lighting</p>
+            </div>
+            <div class="portfolio-item">
+            <img src="bib.jpg" alt="Project 1">
+            <h3>My project 3</h3>
+            <b><p>A Bible with a classified real time material on it </p></b>
+            <img src="maoutain.jpg" alt="Project 1">
+            <h3>My project 4</h3>
+            <b><p>A moutain with beautiful sun at the back to make a beautiful background</p></b>
+            <img src="computer.jpg" alt="Project 1">
+            <h3>My project 5</h3>
+            <b><p>A beautiful structure of a monitor  </p></b>
+            <img src="computer room.png" alt="Project 1">
+            <h3>My project 6</h3>
+            <b><p>An illustration of a computer room </p></b>
+            <img src="Bus stop.png" alt="Project 1">
+            <h3>My project 7</h3>
+            <b><p>An illustration of a cartoon Bus stop </p></b>
+            <img src="community room.png" alt="Project 1">
+            <h3>My project 8</h3>
+            <b><p>An illustration of a simple living room </p></b>
+            <img src="potion 2.png" alt="Project 1">
+            <h3>My project 9</h3>
+            <b><p>A potion glass </p></b>
+            
+            </div>
+     
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HONNEY Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
